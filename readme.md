@@ -1,4 +1,4 @@
-بله حتما! در اینجا یک نسخه ساده از فایل `README.md` برای پروژه شما آماده کردم:
+
 
 ```markdown
 # Diabetes Progression Prediction
