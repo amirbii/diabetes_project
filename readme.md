@@ -1,9 +1,6 @@
-
-
-```markdown
 # Diabetes Progression Prediction
 
-This project uses **Linear Regression** to predict the progression of diabetes based on various health metrics. It utilizes a dataset containing features such as age, sex, BMI, blood pressure, and others. The goal is to assess the model's ability to predict the progression of diabetes over time.
+This project uses **Linear Regression** to predict the progression of diabetes based on various health indicators.
 
 ## Dataset
 
@@ -24,6 +21,7 @@ The dataset used in this project is the **Diabetes dataset** from **scikit-learn
 ## Installation
 
 To run this project, you'll need the following libraries:
+
 - `numpy`
 - `pandas`
 - `matplotlib`
@@ -41,4 +39,5 @@ Once the dependencies are installed, you can run the Python script to train the 
 
 ## Results
 
-The model’s performance will be evaluated using **Root Mean Squared Error (RMSE)**, which gives an idea of how well the model can predict diabetes progression.
+The model's performance will be evaluated using **Root Mean Squared Error (RMSE)**, which gives an idea of how well the model can predict diabetes progression.
+
