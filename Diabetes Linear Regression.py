@@ -9,11 +9,11 @@ diabetes = load_diabetes()
 df = pd.DataFrame(data=diabetes.data, columns=diabetes.feature_names)
 
 df['target'] = diabetes.target
-# print(df.shape)
+
 
 y = df['target']
 x = df[['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6']]
-# print(df.info())
+
 
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, shuffle=True)
